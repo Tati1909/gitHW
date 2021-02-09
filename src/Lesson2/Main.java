@@ -1,12 +1,14 @@
 package Lesson2;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws MyArraySizeException {
 
         String[][] dArr = new String[4][4];
         crossFill(dArr);
+
     }
 
     private static int crossFill(String[][] array) throws MyArraySizeException {

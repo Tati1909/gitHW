@@ -13,7 +13,7 @@ public class Main {
         Set<String> hashSet = new HashSet<>(Arrays.asList(arr));
         System.out.println("Список уникальных слов: " + hashSet);
         System.out.println(numberOfTimes(arr));
-    }
+    } 
     public static Map<String,Integer> numberOfTimes(String[] args){
         Map<String,Integer> numberOfTimesMap = new HashMap<>();
         for(String s: args){
